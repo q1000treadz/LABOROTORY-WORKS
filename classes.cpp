@@ -77,7 +77,7 @@ void Menu::print() {
 	while (tmp != NULL) {
 		std::cout << "MESSAGE " << i << '\n';
 		std::cout << tmp->info;
-		*/tmp = tmp->next;
+		tmp = tmp->next;
 		i++;
 	}
 }
